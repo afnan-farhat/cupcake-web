@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Fredoka' rel='stylesheet'>
+    <link rel="stylesheet" href="/CSS/mainStyle.css">
+    <style>
+
+    </style>
+</head>
+
+<body class="background">
+
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/images/logo.png" alt="the store logo">
+            </div>
+            <ul>
+                <li><a href="/HTML/index.Html"> Home</a></li>
+                <li><a href="/HTML/about.html"> About us</a></li>
+                <li><a href="/HTML/menu.html"> Menu</a></li>
+                <li><a href="/HTML/contact.html"> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <h2 class="page-name">Menu</h2>
+    <br>
+    <div class="carousel-container">
+        <div class="arrow" onclick="scrollCarousel(-1)">❮</div>
+        <div class="product-wrapper">
+            <div class="product-row" id="productsRow">
+                <div class="product-box" onclick="togglePop(this)">
+                    <a href="/HTML/product.html">
+                        <img src="/images/choco blue.png" alt="Blue Cream Chocolate Cupcake" class="cupcake-image">
+                        <p class="cupcake-name">Blue Cream Chocolate</p>
+                        <p class="cupcake-price">$6.00</p>
+                    </a>
+                </div>
+                <div class="product-box" onclick="togglePop(this)">
+                    <img src="/images/cupcack with cherry.jpg" alt="Cherry with Cream Cupcake" class="cupcake-image">
+                    <p class="cupcake-name">Cherry with Cream</p>
+                    <p class="cupcake-price">$5.00</p>
+                </div>
+                <div class="product-box" onclick="togglePop(this)">
+                    <img src="/images/redvilivatCream.jpg" alt="Red Velvet with Cream" class="cupcake-image">
+                    <p class="cupcake-name">Red Velvet with Cream</p>
+                    <p class="cupcake-price">$7.00</p>
+                </div>
+                <div class="product-box" onclick="togglePop(this)">
+                    <img src="/images/strubarrycream.jpg" alt="Strawberry Cream Cupcake" class="cupcake-image">
+                    <p class="cupcake-name">Strawberry Cream</p>
+                    <p class="cupcake-price">$8.00</p>
+                </div>
+                <div class="product-box" onclick="togglePop(this)">
+                    <img src="/images/stubarryCupcack.jpg" alt="Strawberry Pieces" class="cupcake-image">
+                    <p class="cupcake-name">Strawberry Pieces</p>
+                    <p class="cupcake-price">$10.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="arrow" onclick="scrollCarousel(1)">❯</div>
+    </div>
+</body>
+
+</html>
